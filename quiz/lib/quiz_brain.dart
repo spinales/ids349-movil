@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz/quiz.dart';
-
+import 'package:rflutter_alert/rflutter_alert.dart';
 
 class QuizBrainPage extends StatefulWidget {
   const QuizBrainPage({super.key});
@@ -13,6 +13,7 @@ class _QuizBrainPageState extends State<QuizBrainPage> {
 
   int currentIndex = 0;
   String result = "";
+  int currentScore = 0;
 
   // todo: change font
 
@@ -27,7 +28,14 @@ class _QuizBrainPageState extends State<QuizBrainPage> {
       if (currentIndex < Quiz.samples.length - 1) {
         currentIndex++;
       } else {
+        Alert(
+            context: context,
+            title: "Thanks for playing!",
+            desc:
+            "Your final score was $currentScore/${Quiz.samples.length}")
+            .show();
         currentIndex = 0;
+        result = "";
       }
     });
   }
