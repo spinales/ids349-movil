@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "178850618287",
+    "firebase_url": "https://flashapp-7f520-default-rtdb.firebaseio.com",
+    "project_id": "flashapp-7f520",
+    "storage_bucket": "flashapp-7f520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178850618287:android:88c2e92f9c164756aead5a",
+        "android_client_info": {
+          "package_name": "com.spinales.flashapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM-465Yjj88vGMRiq2xdbPR2PXZtYZ0kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
